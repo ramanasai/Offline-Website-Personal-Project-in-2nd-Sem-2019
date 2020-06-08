@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shree Medha Degree Collage</title>
+        <link href="menu_icon.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="toggle" id="toggle" onclick="add_class()">
+            <span></span>
+            <span></span>
+        </div>
+        <script type="text/javascript">//for linking the menu we are using this javascript
+            function add_class()
+            {
+                var element = document.getElementById("toggle");
+                element.classList.toggle("active")
+            }
+        </script>
+        
+    </body>
+</html>
